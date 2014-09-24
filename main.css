@@ -56,7 +56,13 @@ header {
   padding: 0px 0px 0px 5px;
 }
 
-.form input[name="bday"]::before {
+.form [name="bday"]::before {
+  content: 'Bday: ';
+  color: #9c9a9a;
+  padding: 0px 0px 0px 5px;
+}
+
+.form input[name="favcolor"]::before {
   content: url(http://wipimd.com/jpg/oinw.png);
   padding: 0px 0px 0px 5px;
 }

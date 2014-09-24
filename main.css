@@ -1,0 +1,162 @@
+.wrapper {
+  width: 100%
+  height: auto;
+}
+
+* {
+  font-family: "Helvetica", Sans Serif;
+  list-style-type:none;
+}
+header {
+  background-color: #3abcb4;
+  color: #fff;
+  width: 97%;
+  padding: 16px;
+  text-align: center;
+}
+
+.container {
+  width:97%;
+  padding: 16px;
+  margin-top: 25px;
+  text-align:justify;
+  display: inline block;
+}
+
+.sidebar {
+  float:left;
+  position:absolute;
+  width: 15%;
+  padding: 16px;
+  /* can be treated like a fallback */
+  background-color: #edeaea;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#cccccc, #edeaea);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: #edeaea;
+  background: linear-gradient(#cccccc, #edeaea);
+  color: #3abcb4;
+}
+
+.sidebar p {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.sidebar a::after {
+  content: url(http://wipimd.com/jpg/oinw.png);
+  padding: 0px 0px 0px 5px;
+}
+
+.form date::before {
+  content: url(http://wipimd.com/jpg/oinw.png);
+  padding: 0px 0px 0px 5px;
+}
+
+.form input[name="bday"]::before {
+  content: url(http://wipimd.com/jpg/oinw.png);
+  padding: 0px 0px 0px 5px;
+}
+.content {
+  float: left;
+  display: inline block;
+  margin-left: 24%;
+  position:relative;
+  width: 76%;
+}
+
+.form {
+  width: auto;
+  height: auto;
+  display: block;
+  text-align: justify;
+  -moz-columns:2;
+  -webkit-columns:2;
+  columns:2;
+}
+
+.form input {
+   font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+  outline: none;
+	background-color: #fbfbfb;
+	padding: 10px 10px 10px 10px;
+}
+
+.form input:focus {
+  box-shadow: 0 0 5px #3abcb4;
+}
+
+#button-teal{
+  border: #fff solid 2px;
+  cursor: pointer;
+  background-color: #3abcb4;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+#button-teal:hover {
+  /* can be treated like a fallback */
+  background-color: #edeaea;
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#cccccc, #edeaea);
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: #edeaea;
+  background: linear-gradient(#cccccc, #edeaea);
+  color: #3abcb4;
+}
+
+submit:hover .ease {
+  widhth: 100%;
+  background-color: white;
+}
+
+}
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.columns {
+  width: auto;
+  height: auto;
+  text-align:justify;
+  display: inline block;
+}
+
+.columns p{
+  -moz-columns:4;
+  -webkit-columns:4;
+  columns:4;
+}
+
+
+footer {
+  content: " ";
+  height: 50px;
+  clear: both;
+  display: block;
+  background-color: black;
+  padding: 10px;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+a:link { color: #3abcb4; }
+a:visted { color: #3abcb4; }
